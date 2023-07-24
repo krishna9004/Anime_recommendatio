@@ -26,7 +26,7 @@ def recommendation(anime_df):
 
 list_anime=np.array(new_df["Name"])
 option = st.selectbox(
-"Select songs ",
+"Select anime ",
 (list_anime))
 
 
